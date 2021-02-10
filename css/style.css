@@ -1,0 +1,911 @@
+
+/*
+=======================================
+        Home Page Css Start Hera
+=======================================
+*/
+
+
+
+/*===================
+   Common Css
+===================*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #626262;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+}
+
+.down-arrow i{
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #fdd947;;
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+    color: #fdd947;
+}
+.down-arrow i:hover{
+    background:#fdd947;
+    color: #fff;
+    transition: .5s;
+}
+.section-title{
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.our-btn{
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background: #222;
+    color: #fff;
+    border: 1px solid #222;
+    font-weight: bold;
+}
+.our-btn:hover{
+    background: none;
+    border: 1px solid #222;
+    color: #222;
+    transition: .5s;
+}
+
+
+
+/*===================
+   Menu Area Css
+===================*/
+
+.main-menu {
+    padding: 10px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.main-menu .logo {
+    width: 100px;
+
+}
+
+.main-menu .logo img {
+    width: 100%;
+}
+
+.main-menu .mainMenu a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    margin: 0px 10px;
+}
+.main-menu .mainMenu a:hover{
+    color: #fdd947;
+    transition: .5s;
+}
+
+.main-menu .mainMenu{
+    margin-left: 60px;
+}
+.main-menu .book{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.main-menu .header-btn{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 1px 15px;
+    font-size: 11px;
+}
+.main-menu .header-btn:hover{
+    background: #fff;
+    color: #222;
+    transition: .5s;
+}
+.nav-icon{
+    color: #fff;
+}
+
+
+.fixed .main-menu{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    background:#121212;
+    z-index: 999;
+    padding: 0;
+}
+
+
+
+/*===================
+   Banner Css
+===================*/
+
+.banner-area img{
+    height: 100vh;
+    width: 100%;
+}
+.banner-area{
+    position: relative;
+}
+.banner-area::before{
+    content: "";
+    position: absolute;
+    background: #000;
+    opacity: .6;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hungry{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-area .hungry img{
+    width: 100%;
+}
+
+
+
+
+/*===================
+   Hungry Menu Css
+===================*/
+.breakfast-section{
+    background-image: url(../img/restaurant-img1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+.lunch-section{
+    background-image: url(../img/restaurant-img2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+.dinner-section{
+    background-image: url(../img/restaurant-img3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+.hungry-menu{
+    text-align: center;
+    padding: 80px 40px;
+    background: #fff;
+    border: 8px solid #fdd947;
+}
+.pd{
+    padding: 40px;
+    background: #fff;
+}
+.hungry-menu i{
+    font-size: 50px;
+    color: #e9e1e1;
+    margin-bottom: 10px;
+}
+.hungry-menu h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.hungry-menu span{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.hungry-menu p{
+    margin: 30px 0px;
+    font-size: 15px;
+}
+
+
+.hungry-menu .hungry-arrow i{
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #fdd947;;
+    color: #fdd947;
+    text-align: center;
+}
+
+.hungry-menu .hungry-arrow i:hover{
+    background:#fdd947;
+    color: #fff;
+    transition: .5s;
+}
+
+
+/*===================
+   Discover Css
+===================*/
+.discover-section{
+    background-image: url(../img/restaurant-img7.jpg);
+    padding: 120px 0px;
+}
+.discover-area{
+    margin-top: 30px;
+}
+.discover-area h2, span{
+    text-transform: uppercase;
+}
+.discover-area img{
+    width: 100%;
+}
+.discover-area .discover-btn{
+    border: 1px solid #222;
+    background: none;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+.discover-area .discover-btn:hover{
+    background: #222;
+    color: #fff;
+    transition: .5s;
+}
+.discover-content{
+    position: absolute;
+    top: 50%;
+    margin-top: -50%;
+}
+
+
+
+
+/*===================
+   Special Css
+===================*/
+.special-section{
+    background-image: url(../img/restaurant-img24.jpg);
+    padding: 120px 0px;
+}
+.special-title{
+    text-align: center;
+}
+.special-content img{
+    width: 100%;
+}
+
+.special-content{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    position: relative;
+}
+.special-content h4{
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.special-content span{
+    color: #f1f1f1;
+}
+.special-price{
+    background:#db3535;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+        
+}
+.special-price p{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.special-content:hover img{
+    transform:scale(1.1);
+    transition: .5s;
+}
+
+
+
+/*===================
+   Gallery Css
+===================*/
+.gallery-section{
+    background-image: url(../img/restaurant-img7.jpg);
+    padding: 120px 0px;
+}
+.gallery-menu .nav{
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.gallery-menu .nav li{
+    color: #222;
+    font-weight: bold;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.gallery-item img{
+    width: 100%;
+}
+.gallert-btn{
+    border: 1px solid #d8b75e;
+    background: none;
+    color: #d8b75e;
+    padding: 2px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+}
+.gallert-btn:focus{
+    outline: 0;
+}
+.gallert-btn:hover{
+    background: #d8b75e;
+    color: #fff;
+    transition: .5s;
+}
+.gallery-item{
+    position: relative;
+    margin-top: 20px;
+}
+.gallery-content{
+    text-align: center;
+    background: #fff;
+    padding: 10px 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+    text-transform: uppercase;
+    
+}
+.gallery-item:hover .gallery-content{
+    bottom: 0;
+    display: block;
+    transition: 1s;
+}
+
+
+
+/*===================
+   Blog Css
+===================*/
+.blog-section{
+    padding: 80px 0px;
+    background-image: url(../img/slider-img6.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.blog-title{
+    position: relative;
+}
+
+.blog-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #222;
+    opacity: .8;
+}
+
+.blog-section .section-title{
+    color: #fff;
+}
+.blog-area a{
+    text-decoration: none;
+    color: #222;
+}
+
+.card{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.blog-info{
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px;
+}
+.card:hover img{
+    transform: scale(1.1);
+    transition: .6s;
+}
+.p-0{
+    overflow: hidden;
+}
+.blog-btn{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.our-blog-btn{
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.our-blog-btn:hover{
+    background:#d8b75e;
+    transition: .4s;
+}
+
+
+/*===================
+   Booking Css
+===================*/
+.book-section{
+    padding: 120px 0px;
+    background-image: url(../img/restaurant-img40.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.book-content{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*===================
+  Contact Css
+===================*/
+.contact-section{
+    padding: 80px 0px;
+    background-image: url(../img/restaurant-img7.jpg);
+}
+.contact-area{
+    margin-top: 50px;
+}
+
+.contact-form input, select, textarea{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+}
+.contact-form input, select, textarea:focus{
+    outline: 0;
+}
+
+.contact-location h5{
+    color: #222;
+    font-weight: bold;
+} 
+.contact-area i{
+    font-size: 20px;
+    color:#d8b75e; 
+}
+
+
+
+
+
+/*===================
+   Footer Css
+===================*/
+.footer-section{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-image: url(../img/restaurant-img41.jpg);
+}
+.top-footer{
+    text-align: center;
+    color: #fff;
+}
+.footer-icon a i{
+    font-size: 16px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-icon a .fa-facebook-f{
+    background: #3b5999;
+}
+.footer-icon a .fa-twitter{
+    background: #00acee;
+}
+.footer-icon a .fa-instagram{
+    background: #ea4c89;
+}
+.footer-icon a .fa-linkedin-in{
+    background: #007bb6;
+}
+.footer-icon a .fa-youtube{
+    background: #ba0100;
+}
+.footer-icon a .fa-google-plus-g{
+    background: #dd4c39;
+}
+.footer-bottom{
+    text-align: center;
+    color: #f6f6f6;
+    margin-top: 100px;
+}
+
+/*===============================
+    Arrow Section 
+ ===============================*/
+.top{
+    width: 35px;
+    height: 35px;
+    background: #111;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    line-height: 1.8;
+    border-radius: 5px;
+    transition: .5s;
+}
+.top:hover{
+    background:#d8b75e; 
+}
+
+.top a{
+   color: #fff;
+}
+/*===============================
+    Cart Section 
+ ===============================*/
+.cart-area{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 40%;
+    right: 0;
+}
+.cart-area .cart{
+    font-size: 22px;
+    background:#d8b75e;
+    padding: 10px;
+    color: #fff;
+    
+}
+.cart-area span{
+    background: #f6f6f6;
+}
+.cart-area .item{
+    margin: 0;
+    background: #222;
+    color: #fff;
+}
+.cart-area .price{
+    margin: 0;
+    background: #222;
+    color: #fff;
+}
+
+
+.add-cart-section{
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    top: 52px;
+    right: 0;
+    z-index: 999;
+    display: none;
+}
+.cart-header{
+    background: #d8b75e;
+    padding: 10px;
+    color: #fff;
+}
+.cart-header .cart-icon{
+    margin-left: 200px;
+    font-size: 22px;
+}
+.cart-header .cart-item{
+    font-size: 16px;
+}
+.cart-body{
+    text-align: center;
+    margin-top: 30%;
+    padding: 30px;
+}
+.cart-body img{
+    width: 100%;
+}
+.cart-body p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.cart-bottom{
+    background: #d8b75e;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.cart-bottom .cart-btn{
+    padding: 8px 20px;
+    border: none;
+    background: #222;
+    color: #fff;
+    margin-left: 15px;
+}
+.cart-bottom .total-price{
+    margin-left: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*
+=======================================
+        Home Page Css End Hera
+=======================================
+*/
+
+
+
+
+
+
+
+/*
+=======================================
+        Blog Page Css Start Hera
+=======================================
+*/
+
+/*===================
+   Banner Css
+===================*/
+.blog-banner-section{
+    padding: 250px 0px;
+    background-image: url(../img/blog-details-img1.jpg);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+.banner-content{
+    position: relative;
+}
+
+.blog-banner-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #222;
+    opacity: .6;
+}
+
+
+
+/*===================
+   Blog Area Css
+===================*/
+.our-blog-section{
+    padding: 80px 0px;
+}
+.our-blog-area img{
+    width: 100%;
+}
+
+
+/*===================
+   Resent Post Css
+===================*/
+.resent-post .post a{
+    color: #222;
+    text-decoration: none;
+}
+.resent-post h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.post{
+    margin-left: 20px; 
+}
+.post h5{
+    font-size: 16px;
+}
+.post span{
+    color:#ccc7c7;
+}
+
+
+
+/*===================
+   Tag Css
+===================*/
+.tag-section h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.tag-section a{
+    text-decoration: none;
+}
+.tag{
+    color: #222;
+    background: #f6f6f6;
+    padding: 4px;
+}
+
+.tag:hover{
+    background: #222;
+    color: #fff;
+    transition: .4s;
+}
+
+
+
+
+
+
+
+
+/*
+=======================================
+        Blog Page Css End Hera
+=======================================
+*/
+
+/*
+=======================================
+        Login Page Css Start Hera
+=======================================
+*/
+
+/*===================
+   Login section
+===================*/
+.login-section{
+    padding: 150px 0px;
+    background-image: url(../img/loginbg.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.login-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #222;
+    opacity: .8;
+}
+.login-area{
+    width: 400px;
+    margin: auto;
+    background: #222;
+    padding: 40px 20px;
+    opacity: .8;
+    box-shadow: 0px 0px 5px 0px #d9b75e;
+}
+.login-top{
+    text-align: center;
+    color: #fff;
+}
+.login-area input{
+    width: 100%;
+    padding: 8px 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.login-area input:focus{
+    outline: 0;
+}
+.login-area .submit{
+    border: none;
+    background: #d9b75e;
+    color: #fff;
+    font-weight: bold;
+}
+.login-area a{
+    color: #fff;
+}
+.lc{
+    color: #d9b75e;
+}
+.user{
+    position: relative;
+}
+.fa-user{
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+    
+}
+.user-pass{
+    position: relative;
+}
+.fa-eye{
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+    
+}
+
+.user-pass{
+    position: relative;
+}
+.fa-eye-slash{
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+    display: none;
+    
+}
+
+
+
+/*===================
+   Banner Css
+===================*/
+
+
+
+
+/*===================
+   Banner Css
+===================*/
+
+/*
+=======================================
+        Login Page Css End Hera
+=======================================
+*/
+
+
+
+
+

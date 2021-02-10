@@ -1,0 +1,114 @@
+/*=====================================================================
+  Use a media query to add a breakpoint at min 1023px and max 1515px
+======================================================================*/
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 961px and max 1024px
+======================================================================*/
+
+
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 768px and max 991px
+======================================================================*/
+@media screen and (min-device-width: 768px) and (max-device-width: 960px) {
+
+    .main-menu .book,
+    .header-btn {
+        display: none;
+    }
+
+    .main-menu {
+        background: #000;
+    }
+
+    .hungry-menu {
+        padding: 0;
+    }
+
+    .blog-info {
+        padding: 40px;
+    }
+     .discover-content{
+        position: inherit;
+        margin-top:0;
+        top: 0;
+    }
+
+
+}
+
+
+
+
+
+/*=====================================================================
+  Use a media query to add a breakpoint at min 250px and max 600px
+======================================================================*/
+@media screen and (min-device-width: 300px) and (max-device-width: 600px) {
+
+    .main-menu .book,
+    .header-btn {
+        display: none;
+    }
+
+    .main-menu {
+        background: #000;
+    }
+
+    .hungry-menu {
+        padding: 0;
+    }
+    .hungry{
+        width: 200px;
+        left: 50%;
+    }
+    .hungry img{
+        width: 100%;
+    }
+
+    .breakfast-section {
+        padding: 50px 10px;
+        background-attachment: inherit;
+    }
+
+    .lunch-section {
+        padding: 50px 10px;
+        background-attachment: inherit;
+    }
+
+    .dinner-section {
+        padding: 50px 10px;
+        background-attachment: inherit;
+    }
+
+    .blog-info h4 {
+        font-size: 13px;
+    }
+
+    .blog-info {
+        margin-top:30px;
+    }
+    
+    .login-area{
+        width: 300px;
+    }
+    .discover-content{
+        position: inherit;
+        margin-top:0;
+        top: 0;
+    }
+    .special-title{
+        width: 220px;
+        margin: auto;
+        
+    }
+    .special-title img{
+        width: 100%;
+    }
+
+}
